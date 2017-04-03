@@ -1,0 +1,30 @@
+{
+  "name": "onwakeup",
+  "version": "0.0.0",
+  "description": "detect when computer awakes from sleep",
+  "main": "onwakeup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "onwakeup",
+    "awake",
+    "wakeup",
+    "hibernate",
+    "suspend"
+  ],
+  "author": "talmobi <talmo.christian@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talmobi/onwakeup"
+  },
+  "bugs": {
+    "url": "https://github.com/talmobi/onwakeup/issues",
+    "email": "talmo.christian@gmail.com"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
