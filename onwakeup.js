@@ -1,6 +1,6 @@
 var MS_PER_SEC = 1000
-var PADDING = 3000
-var INTERVAL = 1 * MS_PER_SEC
+var PADDING = 10 * MS_PER_SEC
+var INTERVAL = 2 * MS_PER_SEC
 
 var _lastTime = Date.now()
 
