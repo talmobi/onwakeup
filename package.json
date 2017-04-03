@@ -1,6 +1,6 @@
 {
   "name": "onwakeup",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "detect when computer awakes from sleep",
   "main": "onwakeup.js",
   "scripts": {
@@ -23,8 +23,6 @@
     "url": "https://github.com/talmobi/onwakeup/issues",
     "email": "talmo.christian@gmail.com"
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
