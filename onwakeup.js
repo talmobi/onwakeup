@@ -21,9 +21,9 @@ function addEventListener ( callback ) {
           _listeners.forEach( function ( callback ) {
             callback( delta )
           } )
-          console.log( 'delta:' + ( now - limit ) )
+          // console.log( 'delta:' + ( now - limit ) )
         } else {
-          console.log( 'tick ' + ( new Date() ) )
+          // console.log( 'tick ' + ( new Date() ) )
         }
         _lastTime = now
       }, INTERVAL )
