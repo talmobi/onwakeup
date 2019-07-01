@@ -39,6 +39,8 @@ function addEventListener (callback) {
       }
       return _listeners.splice(i, 1)
     }
+
+    return off
   }
 }
 
