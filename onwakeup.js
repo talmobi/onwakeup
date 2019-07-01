@@ -16,8 +16,10 @@ function addEventListener (callback) {
         var now = Date.now()
         var limit = (_lastTime + INTERVAL + PADDING)
         if (now > limit) {
+          var delta = (now - limit)
+
           _listeners.forEach(function (callback) {
-            callback()
+            callback(delta)
           })
           console.log('delta:' + (now - limit))
         } else {
