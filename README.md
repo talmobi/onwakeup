@@ -8,7 +8,7 @@ trigger callback when computer wakes up from sleep/hibernation
 
 #### Module usage
 ```javascript
-const onwakeup = require( './onwakeup.js' )
+const onwakeup = require( 'onwakeup' )
 onwakeup( function ( delta ) {
   console.log( 'Wakeup! Computer was asleep for ' + delta + ' milliseconds' )
 } )
